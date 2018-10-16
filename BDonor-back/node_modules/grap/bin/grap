@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var argv = require('yargs')
+        .usage('Usage: $0 --dateOffset [num] --dateFormat [string]')
+        .argv;
+
+var options = {
+	file: argv._[0],
+	dateOffset: argv.dateOffset,
+	dateFormat: argv.dateFormat,
+}
+
+var jammer = require('../lib/main');
+
+jammer(options);
