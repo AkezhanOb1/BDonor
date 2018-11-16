@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d6986ea-98a0-4116-a5ce-fe72f4c464bd" name="Default" comment="" />
+    <list default="true" id="0d6986ea-98a0-4116-a5ce-fe72f4c464bd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BDonor-front/assets/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BDonor-front/screens/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/assets/images/robot-dev.png" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/assets/images/robot-dev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/assets/images/robot-prod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/components/LoginForm/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/components/LoginForm/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/components/feed/Feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/components/feed/Feed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/info/Info.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,19 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BDonor-back/package.json">
+      <file leaf-file-name="AppNavigator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DonationScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="180">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -34,13 +49,110 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginScreen.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js">
+      <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="463">
+              <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-810">
+              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNewsScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EachHistoryScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/EachHistoryScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-722">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1048">
+              <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DonationScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#3262#3931#0" />
+                <element signature="e#3950#4619#0" />
+                <element signature="e#7331#8587#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Info.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/info/Info.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="29" selection-start-line="43" selection-start-column="6" selection-end-line="44" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -54,6 +166,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>email</find>
+      <find>city</find>
+      <find>_maybeRenderUrl</find>
+      <find>picker</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -65,6 +188,25 @@
         <option value="$PROJECT_DIR$/BDonor-back/app.js" />
         <option value="$PROJECT_DIR$/BDonor-back/server.js" />
         <option value="$PROJECT_DIR$/BDonor-back/package.json" />
+        <option value="$PROJECT_DIR$/BDonor-front/firebase/FireBase.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/intro/intro.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/components/LoginForm/LoginForm.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/components/feed/Feed.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/Modal.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/package.json" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/App.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/EachHistoryScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js" />
+        <option value="$PROJECT_DIR$/BDonor-front/screens/info/Info.js" />
       </list>
     </option>
   </component>
@@ -106,12 +248,46 @@
             <path>
               <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
               <item name="BDonor" type="462c0819:PsiDirectoryNode" />
-              <item name="BDonor-back" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
               <item name="BDonor" type="462c0819:PsiDirectoryNode" />
               <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name=".expo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="introSection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
@@ -126,6 +302,21 @@
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Auth" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDonor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDonor" type="462c0819:PsiDirectoryNode" />
+              <item name="BDonor-front" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -133,10 +324,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="@expo&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BDonor-front/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BDonor-front/firebase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,11 +363,16 @@
       <updated>1539548081477</updated>
       <workItem from="1539548085837" duration="4048000" />
       <workItem from="1539604435269" duration="4446000" />
+      <workItem from="1540447546847" duration="36725000" />
+      <workItem from="1540703626896" duration="9294000" />
+      <workItem from="1541313345233" duration="14853000" />
+      <workItem from="1541441004543" duration="12500000" />
+      <workItem from="1541833599146" duration="39868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8494000" />
+    <option name="totallyTimeSpent" value="121734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -176,10 +382,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33053514" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -188,8 +394,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33053514" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -197,24 +422,178 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BDonor-back/server.js">
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" lean-forward="true" selection-end-line="53" selection-end-column="2" />
+        <state relative-caret-position="1065">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="71" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BDonor-back/model.js" />
-    <entry file="file://$PROJECT_DIR$/BDonor-back/seed.js" />
-    <entry file="file://$PROJECT_DIR$/BDonor-back/schema.js" />
-    <entry file="file://$PROJECT_DIR$/BDonor-back/connectors.js" />
-    <entry file="file://$PROJECT_DIR$/BDonor-back/resolvers.js" />
-    <entry file="file://$PROJECT_DIR$/BDonor-back/app.js" />
-    <entry file="file://$PROJECT_DIR$/BDonor-back/server.js">
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="167" column="56" selection-start-line="167" selection-start-column="56" selection-end-line="167" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#379#470#0" expanded="true" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#SignUpScreen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/info/Info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="83" lean-forward="true" selection-start-line="127" selection-start-column="83" selection-end-line="127" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#3262#3931#0" />
+            <element signature="e#3950#4619#0" />
+            <element signature="e#7331#8587#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#3262#3931#0" />
+            <element signature="e#3950#4619#0" />
+            <element signature="e#7331#8587#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="162" column="39" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#379#470#0" expanded="true" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#SignUpScreen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/components/feed/Feed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="5" selection-start-line="28" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -230,13 +609,209 @@
         <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#3262#3931#0" />
+            <element signature="e#3950#4619#0" />
+            <element signature="e#7331#8587#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-back/server.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/model.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/seed.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/schema.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/connectors.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/resolvers.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/app.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/server.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-back/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/intro/intro.js" />
+    <entry file="file://$PROJECT_DIR$/BDonor-front/app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/components/LoginForm/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/firebase/FireBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/components/feed/Feed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="5" selection-start-line="28" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/AddressScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="149" column="46" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="149" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#379#470#0" expanded="true" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#SignUpScreen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="29" selection-start-line="43" selection-start-column="6" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/EachHistoryScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1048">
+          <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#3262#3931#0" />
+            <element signature="e#3950#4619#0" />
+            <element signature="e#7331#8587#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDonor-front/screens/info/Info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

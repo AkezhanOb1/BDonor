@@ -3,17 +3,16 @@ import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native'
 
 const Feed = (props) => {
 
-
     return(
       <View style={styles.container}>
           <View style={styles.header}>
               <Text style={styles.newsTitle}>{props.title}</Text>
               <Text style={styles.newsDate}>{props.date}</Text>
           </View>
-          <Image source={{uri: 'https://facebook.github.io/react/logo-og.png'}}
+          <Image source={{uri: props.img}}
                  style={{width: "100%", height: 200}} />
           <Text style={styles.newsDescription}>{props.description}</Text>
-          <TouchableOpacity onPress={() => fullInfo()}>
+          <TouchableOpacity onPress={() => props.info()}>
               <Text style={styles.fullInfo}>Expand text...</Text>
           </TouchableOpacity>
       </View>

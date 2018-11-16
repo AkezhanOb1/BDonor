@@ -1,9 +1,9 @@
-import { StyleSheet, Dimensions } from 'react-native';
-import { Constants } from 'expo';
-const window = Dimensions.get('window');
+import { StyleSheet, Dimensions } from 'react-native'
 
-export const IMAGE_HEIGHT = window.width / 3;
-export const IMAGE_HEIGHT_SMALL = window.width / 5;
+const window = Dimensions.get('window')
+
+export const IMAGE_HEIGHT = window.width / 2.5
+export const IMAGE_HEIGHT_SMALL = window.width / 6
 
 export default StyleSheet.create({
     container: {
@@ -19,12 +19,12 @@ export default StyleSheet.create({
     logo: {
         height: IMAGE_HEIGHT,
         resizeMode: 'contain',
-        marginBottom: 20,
-        marginTop:50
+        marginBottom: 15,
+        marginTop:40
     },
     input: {
         marginHorizontal: 10,
-        marginVertical: 5,
+        marginVertical: 10,
         width: window.width - 30,
         height: 40,
         backgroundColor: 'rgb(86, 210, 199)',

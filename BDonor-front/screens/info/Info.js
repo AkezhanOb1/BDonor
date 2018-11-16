@@ -1,68 +1,44 @@
 import React, {Component} from 'react'
-import {View, Text, StatusBar, StyleSheet, ScrollView, TouchableOpacity, Dimensions} from 'react-native'
+import {View, Text, StatusBar, StyleSheet, ScrollView, TouchableOpacity, Dimensions, Image} from 'react-native'
 import DonationInfo from '../../components/dontaionInfo/DonationInfo'
 import { Constants } from 'expo';
+import Swiper from 'react-native-swiper';
+
 const window = Dimensions.get('window')
 
 class Info extends Component {
 
     agreementHandler = () => {
-        alert("Success")
-        this.props.navigation.navigate('Main')
+ 
+        this.props.navigation.navigate('Login')
     }
 
     render() {
         return (
-            <View style={styles.container}>
+            <View style={{flex: 1}}>
                 <StatusBar barStyle={"light-content"}/>
-                <ScrollView style={{flex:1}}>
-                    <View style={styles.caption}>
-                        <Text style={styles.containerTitle}>Полезная информация о донорстве крови</Text>
+                <Swiper style={styles.wrapper} showsButtons={true}>
+                    <View style={styles.slide1}>
+                        <Image source={require("../../assets/images/introSection/first2.png")}
+                               style={{width: '100%', height: 300}} />
+                        <Text style={styles.text}>Сдать кровь легко!</Text>
                     </View>
-                    <DonationInfo
-                                header={"ДОНОРСТВО КРОВИ:"}
-                                paragraph={"это добровольная сдача своей крови или её" +
-                    " компонентов для последующего переливания, нуждающимся больным, в ходе короткой несложной" +
-                    " процедуры из вены у донора берут 450 мл цельной крови."}/>
-
-                    <DonationInfo
-                                header={"КТО МОЖЕТ СТАТЬ ДОНОРОМ?:"}
-                                paragraph={"Стать донором может практически любой" +
-                                " здоровый человек, если он старше 18 лет, не имеет противопоказаний к " +
-                                "донорству, а его вес больше 50 кг"}/>
-
-                    <DonationInfo
-                                header={"КАК ПРАВИЛЬНО ПИТАТЬСЯ:"}
-                                paragraph={"Перед сдачей крови умеренно позавтракайте: выпейте чашку сладкого " +
-                                "чая с печеньем или сушками, можно с вареньем, или стакан сока, морса," +
-                                " минеральной воды."}/>
-
-                    <DonationInfo
-                        header={"ДОНОРСТВО КРОВИ:"}
-                        paragraph={"это добровольная сдача своей крови или её" +
-                        " компонентов для последующего переливания, нуждающимся больным, в ходе короткой несложной" +
-                        " процедуры из вены у донора берут 450 мл цельной крови."}/>
-
-                    <DonationInfo
-                        header={"КТО МОЖЕТ СТАТЬ ДОНОРОМ?:"}
-                        paragraph={"Стать донором может практически любой" +
-                        " здоровый человек, если он старше 18 лет, не имеет противопоказаний к " +
-                        "донорству, а его вес больше 50 кг"}/>
-
-                    <DonationInfo
-                        header={"КАК ПРАВИЛЬНО ПИТАТЬСЯ:"}
-                        paragraph={"Перед сдачей крови умеренно позавтракайте: выпейте чашку сладкого " +
-                        "чая с печеньем или сушками, можно с вареньем, или стакан сока, морса," +
-                        " минеральной воды."}/>
-
-                    <TouchableOpacity
-                            style={styles.buttonContainer}
-                            onPress={() => this.agreementHandler()}>
-
-                        <Text style={styles.buttonText}>Agree</Text>
-
-                    </TouchableOpacity>
-                </ScrollView>
+                    <View style={styles.slide2}>
+                        <Image source={require("../../assets/images/introSection/diary.png")}
+                               style={{width: '100%', height: 350}} />
+                        <Text style={styles.text}>Веди дневник донации</Text>
+                    </View>
+                    <View style={styles.slide3}>
+                        <Image source={require("../../assets/images/introSection/bonus.png")}
+                               style={{width: '100%', height: 350}} />
+                        <Text style={styles.text}>Получай бонусы</Text>
+                    </View>
+                    <View style={styles.slide4}>
+                        <Image source={require("../../assets/images/introSection/last.png")}
+                               style={{width: '100%', height: 400}} />
+                        <Text style={styles.text} onPress={() => this.agreementHandler()}>Начать!</Text>
+                    </View>
+                </Swiper>
             </View>
         )
     }
@@ -71,36 +47,39 @@ class Info extends Component {
 export default Info
 
 
+
 const styles = StyleSheet.create({
-    container: {
+    wrapper: {
+    },
+    slide1: {
         flex: 1,
-        backgroundColor: '#2cc7b8',
-        paddingTop: Constants.statusBarHeight + 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(244, 244, 255, 1.0)',
     },
-    caption: {
-        alignItems: 'center'
+    slide2: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(231, 253, 255, 1.0)',
     },
-    containerTitle: {
-        color: 'white',
-        textAlign: 'center',
-        fontSize: 23,
-        fontWeight: '700',
-        marginBottom: Constants.statusBarHeight + 5,
-        width: '80%',
+    slide3: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(213, 252, 253, 1.0)',
     },
-    buttonContainer: {
-        width: window.width - 30,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        backgroundColor: 'rgba(43, 175, 199, 0.7)',
-        paddingVertical:15,
-        marginBottom: 10
+    slide4: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(246, 255, 255, 1.0)',
     },
-
-    buttonText: {
-        textAlign: 'center',
-        color: "#fff",
-        fontWeight: '700',
-    },
-
-});
+    text: {
+        color: '#2cc7b8',
+        fontSize: 20,
+        marginTop: 10,
+        fontStyle: 'italic',
+        fontWeight: 'bold',
+    }
+})

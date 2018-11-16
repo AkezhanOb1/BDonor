@@ -13,15 +13,19 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@expo/samples": "2.1.1",
     "expo": "30.0.0",
+    "firebase": "^5.5.5",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-elements": "^0.19.1",
+    "react-native-modal": "^6.5.0",
     "react-native-picker-select": "^4.3.0",
+    "react-native-swiper": "^1.5.13",
     "react-navigation": "^2.9.3",
     "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
+    "@expo/vector-icons": "^8.0.0",
     "jest-expo": "30.0.0"
   }
 }

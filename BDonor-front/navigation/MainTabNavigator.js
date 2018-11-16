@@ -8,6 +8,7 @@ import AddressScreen from '../screens/AddressScreen';
 import DonationScreen from '../screens/DonationScreen';
 import HistoryScreen from '../screens/HistoryScreen';
 import ProfileScreen from '../screens/ProfileScreen';
+import EachHistoryScreen from '../screens/EachHistoryScreen';
 
 
 /*---------------------------------------Home Screen-----------------------------------------------------------------*/
@@ -17,7 +18,7 @@ const HomeStack = createStackNavigator({
 });
 
 HomeStack.navigationOptions = {
-    tabBarLabel: 'Лента',
+    tabBarLabel: 'Feed',
     tabBarIcon: ({ focused }) => (
         <TabBarIcon
             focused={focused}
@@ -35,8 +36,10 @@ const AddressStack = createStackNavigator({
     Links: AddressScreen,
 });
 
+
+
 AddressStack.navigationOptions = {
-    tabBarLabel: 'Адрес',
+    tabBarLabel: 'Address',
     tabBarIcon: ({ focused }) => (
         <TabBarIcon
             focused={focused}
@@ -54,8 +57,10 @@ const DonationStack = createStackNavigator({
     Settings: DonationScreen,
 });
 
+
+
 DonationStack.navigationOptions = {
-    tabBarLabel: 'Сдать кровь',
+    tabBarLabel: 'Personal Training',
     tabBarIcon: ({ focused }) => (
         <TabBarIcon
             focused={focused}
@@ -71,10 +76,11 @@ DonationStack.navigationOptions = {
 
 const HistoryStack = createStackNavigator({
     Settings: HistoryScreen,
+    EachHistory: EachHistoryScreen,
 });
 
 HistoryStack.navigationOptions = {
-    tabBarLabel: 'История',
+    tabBarLabel: 'Diary',
     tabBarIcon: ({ focused }) => (
         <TabBarIcon
             focused={focused}
@@ -92,8 +98,10 @@ const ProfileStack = createStackNavigator({
     Settings: ProfileScreen,
 });
 
+
+
 ProfileStack.navigationOptions = {
-    tabBarLabel: 'Профиль',
+    tabBarLabel: 'Profile',
     tabBarIcon: ({ focused }) => (
         <TabBarIcon
             focused={focused}
@@ -105,10 +113,15 @@ ProfileStack.navigationOptions = {
 /*---------------------------------------Profile Screen END----------------------------------------------------------*/
 
 
+/*---------------------------------------Add News Screen--------------------------------------------------------------*/
+
+
+/*--------------------------------------Add News Screen End----------------------------------------------------------*/
+
 export default createBottomTabNavigator({
     HomeStack,
     AddressStack,
-    DonationStack,
     HistoryStack,
+    DonationStack,
     ProfileStack,
 });

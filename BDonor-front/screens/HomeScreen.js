@@ -1,17 +1,38 @@
 import React from 'react';
 import {
-  Platform,
-  ScrollView,
-  StyleSheet,
-  View,
-  StatusBar,
+    Text,
+    Image,
+    ScrollView,
+    StyleSheet,
+    View,
+    StatusBar,
+    TouchableOpacity,
+    Dimensions,
+    Alert,
+    Button,
 } from 'react-native';
 
+import { Icon } from 'react-native-elements';
 import Feed from '../components/feed/Feed'
+import firebase from '../firebase/FireBase'
+import Modal from "react-native-modal";
 
+
+const window = Dimensions.get('window');
 
 export default class HomeScreen extends React.Component {
-    static navigationOptions = {
+
+    state = {
+        trainings: [],
+        addNewsVisibl: false,
+        isModalVisible: false,
+        photo: '',
+        title: '',
+        desc:'',
+        fullDesc: '',
+    }
+
+    static navigationOptions = ({ navigation, screenProps }) => ({
         title: 'Feed',
         headerStyle: {
             backgroundColor: '#2cc7b8',
@@ -20,47 +41,88 @@ export default class HomeScreen extends React.Component {
         headerTitleStyle: {
             fontWeight: 'bold',
         },
+        headerRight: <Icon
+                            name="library-add"
+                            color='#fff'
+                            style={styles.headerIcon}
+                            onPress={()=>{ navigation.navigate("addNews")}} // WARNING MEMORY LEAK
+                            underlayColor={'#2cc7b8'}
+                        />,
+
+    })
+
+    _toggleModal = () =>
+        this.setState({ isModalVisible: !this.state.isModalVisible });
+
+    componentDidMount = () => {
+        let trainings = null
+
+        firebase
+            .database()
+            .ref('trainings')
+            .on('value', snap => {
+                if(snap.val()) {
+                    trainings = Object.keys(snap.val()).map(i => snap.val()[i])
+                    this.setState({
+                        trainings: trainings
+                    })
+                }
+            }, function (errorObject) {
+                console.log("The read failed: " + errorObject.code);
+            })
     }
+
+    detailedInfo = async (el) => {
+        await this.setState({
+            photo: el.Url,
+            title: el.Title,
+            fullDesc: el.FullDesc,
+
+        })
+        this._toggleModal()
+    }
+
 
   render()  {
     return (
       <View style={styles.container}>
-        <StatusBar barStyle={"light-content"}/>
-        <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-            <Feed
-                title={"Damasya I need your help"}
-                date={"19.08  20:00"}
-                img={'https://images.pexels.com/photos/271955/pexels-photo-271955.jpeg?auto=compress&cs=tinysrgb&h=350'}
-                description={"Help me if you can, I'm feeling down And I do appreciate you being 'round" +
-                "Help me get my feet back on the ground" +
-                "Won't you please, please help me?" +
-                "My independence seems to vanish in the haze" +
-                "(But) but every now and then (now and then) I feel so insecure (I know that I)" +
-                "I know that I just need you like I never done before..."}/>
+          <StatusBar barStyle={"light-content"}/>
+          {
 
-            <Feed
-                title={"Damasya I need your help"}
-                date={"19.08  20:00"}
-                img={'https://images.pexels.com/photos/271955/pexels-photo-271955.jpeg?auto=compress&cs=tinysrgb&h=350'}
-                description={"Help me if you can, I'm feeling down And I do appreciate you being 'round" +
-                "Help me get my feet back on the ground" +
-                "Won't you please, please help me?" +
-                "My independence seems to vanish in the haze" +
-                "(But) but every now and then (now and then) I feel so insecure (I know that I)" +
-                "I know that I just need you like I never done before..."}/>
+              this.state.trainings.length > 0 ?
+                  <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
+                      <View style={{ flex: 1 }}>
+                          {this.state.trainings.slice(0).reverse().map(el => (
 
-            <Feed
-                title={"Damasya I need your help"}
-                date={"19.08  20:00"}
-                img={'https://images.pexels.com/photos/271955/pexels-photo-271955.jpeg?auto=compress&cs=tinysrgb&h=350'}
-                description={"Help me if you can, I'm feeling down And I do appreciate you being 'round" +
-                "Help me get my feet back on the ground" +
-                "Won't you please, please help me?" +
-                "My independence seems to vanish in the haze" +
-                "(But) but every now and then (now and then) I feel so insecure (I know that I)" +
-                "I know that I just need you like I never done before..."}/>
+                              <Feed key={el.Title.length + el.Url.length + el.Desc.length}
+                                    title={el.Title}
+                                    date={el.Date}
+                                    img={el.Url}
+                                    description={el.Desc}
+                                    info={() => this.detailedInfo(el)}/>
 
-        </ScrollView>
+                          ))}
+
+                          <Modal isVisible={this.state.isModalVisible}>
+                              <ScrollView style={{ flex: 1 }}>
+                                  <View style={styles.header}>
+                                      <Text style={styles.newsTitle}>{this.state.title}</Text>
+                                  </View>
+                                  <Image source={{uri: this.state.photo}}
+                                         style={{width: "100%", height: 200}} />
+                                  <Text style={styles.description}>{this.state.fullDesc}</Text>
+                                  <TouchableOpacity onPress={this._toggleModal} style={styles.hideButton}>
+                                      <Text style={styles.fullInfo}>Hide me!</Text>
+                                  </TouchableOpacity>
+                              </ScrollView>
+                          </Modal>
+                      </View>
+                  </ScrollView>
+
+                  : <Image
+                      style={{width: 300, height: 200}}
+                      source={require('../assets/images/spinner.gif')} />
+          }
       </View>
     );
   }
@@ -74,9 +136,45 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 
+    header: {
+        marginTop: 15,
+        justifyContent: 'center',
+        flexDirection: 'row',
+        alignItems: 'flex-end',
+    },
+    headerIcon: {
+        marginRight: 40,
+    },
+    newsTitle: {
+        color: "#FFFFFF",
+        fontSize: 22,
+        fontWeight: '700',
+        fontStyle: 'italic',
+        marginBottom: 10,
+    },
 
-  // contentContainer: {
-  //   paddingTop: 10,
-  // },
+
+    description: {
+        marginTop: 10,
+        fontSize: 13,
+        fontWeight: '600',
+        color: '#ffffff'
+    },
+
+    fullInfo: {
+        textAlign: 'right',
+        color: '#ffffff',
+    },
+
+    hideButton: {
+        alignItems: 'center',
+        marginTop: 15,
+        width: window.width - 30,
+        backgroundColor: '#2cc7b8',
+        paddingVertical:15,
+        marginBottom: 10,
+    },
+
+
 
 });

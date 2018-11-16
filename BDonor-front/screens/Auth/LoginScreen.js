@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
-import { Text, Button, StatusBar, TextInput, KeyboardAvoidingView, View, StyleSheet, Image}from 'react-native'
+import { Text, KeyboardAvoidingView, View, StyleSheet, Image, Alert}from 'react-native'
 import logo from '../../assets/images/logo.png'
 import LoginForm from '../../components/LoginForm/LoginForm'
+
+
 
 class LoginScreen extends Component {
 

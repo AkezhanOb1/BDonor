@@ -1,12 +1,17 @@
 import React, {Component} from 'react'
-import {StyleSheet, View, TextInput, TouchableOpacity, Text, StatusBar} from 'react-native'
+import {StyleSheet, View, TextInput, TouchableOpacity, Text, StatusBar, Alert} from 'react-native'
+import firebase from '../../firebase/FireBase'
+
+
 
 class LoginForm extends Component {
 
     state = {
         email: '',
-        password: ''
+        password: '',
+        trainings: [],
     }
+
 
     emailHandler = (email) => {
         this.setState({email})
@@ -17,15 +22,44 @@ class LoginForm extends Component {
     }
 
     signInHandler = () => {
-        alert(`Confirmation email has been sent to ${this.state.email}`);
+
+        let userEmail = this.state.email
+        let userPassword = this.state.password
+
+        if(userEmail === '' || userPassword === '') {
+            if(userEmail === '' && userPassword !== '') {
+                Alert.alert("Enter your email")
+                return
+            }else if(userEmail !== '' && userPassword === ''){
+                Alert.alert("Enter your password")
+                return
+            }else {
+                Alert.alert("Enter email and password")
+                return
+            }
+        }
+
+
+        firebase.auth().signInWithEmailAndPassword(userEmail, userPassword).then(  () => {
+            this.props.props.navigation.navigate("Main")
+        })
+
+
+
+        .catch((error)=> {
+            let errorCode = error.code;
+            let errorMessage = error.message;
+            console.log(errorCode, errorMessage)
+        });
     }
 
     signUpHandler = () => {
-        alert(`Confirmation email has been sent to ${this.state.password}`);
         this.props.props.navigation.navigate("SignUp")
     }
 
     render() {
+
+
         return (
             <View style={styles.container}>
                 <StatusBar barStyle={"light-content"}/>
