@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d6986ea-98a0-4116-a5ce-fe72f4c464bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BDonor-front/assets/images/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BDonor-front/screens/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/assets/images/robot-dev.png" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/assets/images/robot-dev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/assets/images/robot-prod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/components/LoginForm/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/components/LoginForm/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/components/feed/Feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/components/feed/Feed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/Auth/LoginScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/Auth/SignUpScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/Auth/styles/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDonor-front/screens/info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/BDonor-front/screens/info/Info.js" afterDir="false" />
-    </list>
+    <list default="true" id="0d6986ea-98a0-4116-a5ce-fe72f4c464bd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,7 +17,7 @@
       <file leaf-file-name="AppNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="75">
               <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -52,7 +29,7 @@
       <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
+            <state relative-caret-position="1710">
               <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -64,7 +41,7 @@
       <file leaf-file-name="HistoryScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
+            <state relative-caret-position="345">
               <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -76,7 +53,7 @@
       <file leaf-file-name="AddNewsScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="645">
               <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -88,7 +65,7 @@
       <file leaf-file-name="ProfileScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
+            <state relative-caret-position="495">
               <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -100,7 +77,7 @@
       <file leaf-file-name="EachHistoryScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/screens/EachHistoryScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-722">
+            <state relative-caret-position="300">
               <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -112,7 +89,7 @@
       <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1048">
+            <state relative-caret-position="1155">
               <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -124,13 +101,10 @@
       <file leaf-file-name="DonationScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="1725">
               <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#3262#3931#0" />
-                <element signature="e#3950#4619#0" />
-                <element signature="e#7331#8587#0" />
               </folding>
             </state>
           </provider>
@@ -237,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,12 +294,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="@expo&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -368,24 +342,24 @@
       <workItem from="1541313345233" duration="14853000" />
       <workItem from="1541441004543" duration="12500000" />
       <workItem from="1541833599146" duration="39868000" />
+      <workItem from="1542326835253" duration="129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121734000" />
+    <option name="totallyTimeSpent" value="121863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33053514" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33053514" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -400,19 +374,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33053514" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -500,9 +474,6 @@
           <caret line="127" column="83" lean-forward="true" selection-start-line="127" selection-start-column="83" selection-end-line="127" selection-end-column="83" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#3262#3931#0" />
-            <element signature="e#3950#4619#0" />
-            <element signature="e#7331#8587#0" />
           </folding>
         </state>
       </provider>
@@ -537,9 +508,6 @@
           <caret column="6" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#3262#3931#0" />
-            <element signature="e#3950#4619#0" />
-            <element signature="e#7331#8587#0" />
           </folding>
         </state>
       </provider>
@@ -609,9 +577,6 @@
         <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#3262#3931#0" />
-            <element signature="e#3950#4619#0" />
-            <element signature="e#7331#8587#0" />
           </folding>
         </state>
       </provider>
@@ -649,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,15 +678,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/EachHistoryScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722">
+        <state relative-caret-position="300">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -737,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/MainTabNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
+        <state relative-caret-position="1710">
           <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -747,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HistoryScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
+        <state relative-caret-position="345">
           <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -757,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/navigation/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="75">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -767,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/ProfileScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
+        <state relative-caret-position="495">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -777,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1048">
+        <state relative-caret-position="1155">
           <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -787,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/AddNewsScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="645">
           <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -797,13 +753,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDonor-front/screens/DonationScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="1725">
           <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#3262#3931#0" />
-            <element signature="e#3950#4619#0" />
-            <element signature="e#7331#8587#0" />
           </folding>
         </state>
       </provider>
